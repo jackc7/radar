@@ -20,7 +20,11 @@ def collect():
 
     resp = make_response(data)
     resp.mimetype = "text/plain"
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 8accb17a91241fb81294220f24ad2c84b4038d09
     return resp
 
 if __name__ == "__main__":
